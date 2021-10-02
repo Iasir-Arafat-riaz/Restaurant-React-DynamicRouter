@@ -38,9 +38,11 @@ const MealDetail = () => {
               <Card.Text>
                 Found in {strArea}
               </Card.Text>
-              <Button onClick={addEvent} variant="danger">Details</Button>
+              <a target="blank" href={strYoutube} style={{textDecoration:"none"}}>Youtube Link</a>
+              <br />
+              <Button onClick={addEvent} variant="success">Go To Home</Button>
             </Card.Body>
-            <a target="blank" href={strYoutube}>Youtube</a>
+            
             <Card.Footer className="text-muted">Category: {strCategory}</Card.Footer>
           </Card>
         </Col>
