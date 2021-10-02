@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Row } from "react-bootstrap";
 import Meal from "../Meal/Meal";
 
+//read input frield
 const Home = () => {
   const [input, setInput] = useState("");
   const handleChange = (event) => {
