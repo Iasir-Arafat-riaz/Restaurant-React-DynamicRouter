@@ -4,7 +4,8 @@ import { Card, Col, Row,Button } from "react-bootstrap";
 import { useHistory, useParams } from "react-router";
 
 const MealDetail = () => {
-  const { mealId } = useParams();
+  console.log(useParams())
+  const {mealId} = useParams();
   console.log(mealId);
   const [detail, setaDEtail] = useState([]);
   useEffect(() => {
